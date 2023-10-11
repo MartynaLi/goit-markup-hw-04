@@ -156,7 +156,7 @@ h1 {
 
 .filter-button-main:hover,
 .filter-button-main:focus {
-  background-color: var(--pressed-state-color)
+  background-color: var(--pressed-state-color);
 }
 
 .filter-button:hover,
@@ -171,7 +171,8 @@ h1 {
 }
 
 .portfolio-shadow:hover,
-.portfolio-shadow:focus {
+.portfolio-shadow:focus,
+.portfolio-shadow:active {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -233,6 +234,7 @@ margin-bottom: 16px;
 .background {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
   max-width: 1440px;
+  margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -242,7 +244,7 @@ margin-bottom: 16px;
 .header {
   padding: 24px 156px;
   border-bottom: 1px solid var(--accent-color);
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .container-header {
@@ -285,7 +287,8 @@ margin-bottom: 16px;
 }
 
 .button-flex-li:hover,
-.button-flex-li:focus {
+.button-flex-li:focus,
+.button-flex-li:active {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
@@ -376,7 +379,8 @@ margin-bottom: 16px;
 }
 
 .link-social-media:hover,
-.link-social-media:focus {
+.link-social-media:focus,
+.link-social-media:active {
   background-color: var(--pressed-state-color);
 }
 
@@ -392,9 +396,10 @@ margin-bottom: 16px;
 }
 
 .link-customers:hover,
-.link-customers:focus {
-  color: var(--pressed-state-color);
+.link-customers:focus,
+.link-customers:active {
   border-color: var(--pressed-state-color);
+  color: var(--pressed-state-color);
 }
 
 .customers-icon {
@@ -441,7 +446,8 @@ margin-bottom: 16px;
 }
 
 .footer-social-media-link:hover,
-.footer-social-media-link:focus {
+.footer-social-media-link:focus,
+.footer-social-media-link:active {
   background-color: var(--success-color);
 }
 
