@@ -166,9 +166,13 @@ h1 {
   border: 1px solid transparent;
 }
 
+.portfolio-shadow {
+  display: block;
+}
+
 .portfolio-shadow:hover,
 .portfolio-shadow:focus {
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .address {
@@ -238,6 +242,7 @@ margin-bottom: 16px;
 .header {
   padding: 24px 156px;
   border-bottom: 1px solid var(--accent-color);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .container-header {
@@ -281,7 +286,7 @@ margin-bottom: 16px;
 
 .button-flex-li:hover,
 .button-flex-li:focus {
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .section-portfolio {
@@ -321,7 +326,7 @@ margin-bottom: 16px;
 
 .team-flex-li {
   flex-basis: calc(100% - 72px) / 4;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -370,6 +375,11 @@ margin-bottom: 16px;
   justify-content: center;
 }
 
+.link-social-media:hover,
+.link-social-media:focus {
+  background-color: var(--pressed-state-color);
+}
+
 .link-customers {
   width: 168px;
   height: 88px;
@@ -383,6 +393,7 @@ margin-bottom: 16px;
 
 .link-customers:hover,
 .link-customers:focus {
+  color: var(--pressed-state-color);
   border-color: var(--pressed-state-color);
 }
 
